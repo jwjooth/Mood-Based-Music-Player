@@ -6,15 +6,18 @@
     <title>Mood Based Music Player</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="background">
+  <body id="background">
     <header>This is Header</header>
     <div>
       <button type="button" value="happy" class="mood happy">Happy</button>
       <button type="button" value="chill" class="mood chill">Chill</button>
       <button type="button" value="sad" class="mood sad">Sad</button>
       <button type="button" value="energy" class="mood energy">Energy</button>
+      <div>
+        <ul id="list-songs"></ul>
+      </div>
     </div>
     <footer>This is Footer</footer>
-    <script src="./js/app.js"></script>
+    <script type="module" src="./js/app.js"></script>
   </body>
 </html>
