@@ -9,8 +9,25 @@
   --color-happy: hsl(48, 100%, 65%);
   --color-chill: hsl(170, 45%, 80%);
   --color-sad: hsl(220, 25%, 35%);
+  --color-energy: hsl(100, 100%, 55%);
 }
 
 .background {
+  background-color: whitesmoke;
+}
+
+.mood.happy:hover {
   background-color: var(--color-happy);
+}
+
+.mood.chill:hover {
+  background-color: var(--color-chill);
+}
+
+.mood.sad:hover {
+  background-color: var(--color-sad);
+}
+
+.mood.energy:hover {
+  background-color: var(--color-energy);
 }
